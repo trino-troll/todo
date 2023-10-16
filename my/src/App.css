@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: aquamarine;
+}
+
+.main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  margin-bottom: 10px;
+}
+li {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+input {
+  font-size: 16px;
+  padding: 5px 15px;
+  background-color: #fff;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+button {
+  font-size: 16px; 
+  border: none;
+  padding: 5px 20px;
+  background-color: #073f64;
+  border-radius: 20px;
+  color: #fff;
+  cursor: pointer;
+}
